@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras geometricas | Curso practico de Javascript en platzi</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Figuras geométricas
+        </h1>
+        <p>Este es el primer taller del curso práctico de javascript</p>
+    </header>
+
+    <section>
+        <h2>Calcula la altura de un triangulo</h2>
+        <form action="">
+            <p>Escribe cuando mide cada lado del triangulo:</p>
+            <label for="Lado1">
+                Lado1: 
+            </label>
+            <input type="number" id="Lado1">
+            
+            
+            <label for="Lado2">
+                Lado2: 
+            </label>
+            <input type="number" id="Lado2">
+            
+            
+            <label for="Lado3">
+                Lado3: 
+            </label>
+            <input type="number" id="Lado3">
+
+            <button type="button" onclick="calcularAlturaTriangulo()">
+                Calcular Altura
+            </button>
+            
+
+
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula el area y perimetro de un cuadrado</h2>
+        <form action="">
+            <label for="InputCuadrado">
+                Escribe cuanto mide cada lado de tu cuadrado: 
+            </label>
+            <input type="number" id="InputCuadrado">
+
+            <button type="button" onclick="calcularPerimetroCuadrado()">
+                Calcular perimetro
+            </button>
+            <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular Area
+            </button>
+
+
+        </form>
+    </section>
+
+    <script src="./figuras.js"></script>
+</body>
+</html>
